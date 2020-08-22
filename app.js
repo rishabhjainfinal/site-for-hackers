@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 const path = require('path')
-let port = 80;
+let port =  process.env.PORT || 80;;
 
 app.use('/static', express.static(__dirname + '/images'));
 
