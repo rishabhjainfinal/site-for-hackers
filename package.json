@@ -1,0 +1,16 @@
+{
+    "name": "hack",
+    "version": "1.0.0",
+    "description": "for good",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node app.js"
+    },
+    "author": "idon'tknow",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "path": "^0.12.7"
+    }
+}
